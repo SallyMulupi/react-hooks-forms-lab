@@ -5,7 +5,7 @@ import { v4 as uuid } from "uuid";
 
 function ItemForm({onItemFormSubmit} ) {
   const [input,setInput]=useState({
-
+    id:null,
   return (
     <form className="NewItem">
       <label>
