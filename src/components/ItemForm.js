@@ -9,6 +9,8 @@ function ItemForm({onItemFormSubmit} ) {
     name:"",
     category:"Produce"
   });
+  const handleChange=(event)=>{
+
   return (
     <form className="NewItem">
       <label>
